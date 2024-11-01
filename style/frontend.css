@@ -1,0 +1,40 @@
+.raoTOCheading { position: relative; }
+.raoTOCheading > .raoTOCanchor { position: absolute; width: 1px; height: 1px; }
+
+#raoTOC { margin: 0.8em 0; padding: 0.4em 0.4em 1em 0.6em; clear: both; }
+#raoTOC[mobile="no"].floatLeft { margin: 0.8em 1.6em 1em 0; float: left; }
+#raoTOC[mobile="no"].floatRight { margin: 0.8em 0 1em 1.6em; float: right; }
+#raoTOC[mobile="no"].floatCenter { margin: 0.8em auto 1em auto; }
+#raoTOC > .header { clear: both; overflow-y: auto; }
+#raoTOC > .header[hasTitle="yes"] { padding-bottom: 0.4em; }
+#raoTOC > .header[hasTitle="no"] { display: none; }
+#raoTOC > .header > .title { margin: 0; padding: 0 3em 0 0; float: left; }
+#raoTOC > ul { padding: 0.6em 0 0 0.8em; }
+#raoTOC.hidden > ul { display: none; }
+#raoTOC ul { margin: 0; padding: 0; border: none; box-shadow: none; display: block; }
+#raoTOC ul > li { font-size: 1em; line-height: 1.1em !important; margin: 0; padding: 0.2em 0 0 0; border: none; box-shadow: none; list-style: none; }
+#raoTOC ul[level="1"] > li { font-size: 1em; }
+#raoTOC ul[level="2"] > li { font-size: 0.9em; }
+#raoTOC ul[level="3"] > li { font-size: 0.95em; }
+#raoTOC ul[level="4"] > li { font-size: 0.96em; }
+#raoTOC ul[level="5"] > li { font-size: 0.97em; }
+#raoTOC ul[level="6"] > li { font-size: 0.98em; }
+#raoTOC ul li.nextLevel { padding: 0.2em 0 0 0; }
+#raoTOC ul[step="0"] > li { padding-top: 0.1em; }
+#raoTOC ul[step="1"] > li { padding-top: 0.2em; }
+#raoTOC ul[step="2"] > li { padding-top: 0.3em; }
+#raoTOC ul[step="3"] > li { padding-top: 0.45em; }
+#raoTOC ul[step="4"] > li { padding-top: 0.6em; }
+#raoTOC ul[step="5"] > li { padding-top: 0.8em; }
+#raoTOC ul li > a { text-decoration: none; border: none; box-shadow: none; }
+#raoTOC ul li > a:hover { text-decoration: underline; color: #880000; }
+#raoTOC ul li > a > .enum { margin: 0; padding: 0 0.2em 0 0; border: none; box-shadow: none; white-space: nowrap; }
+
+#raoTOC[layout="1"] { background-color: #EDF6FF; border: solid 1px #AAAAAA; }
+#raoTOC[layout="1"] > .header > .title { font-size: 0.9em; line-height: 1.2em; font-weight: bold; color: #AAAAAA; }
+#raoTOC[layout="1"] > .header > .title > .maintitle:after { content: ":"; }
+#raoTOC[layout="1"] ul li > a { color: #437BD0; }
+
+#raoTOC[layout="2"] { background-color: #FAFAFA; border: solid 1px #DEDEDE; border-radius: 0.3em; }
+#raoTOC[layout="2"] > .header > .title { font-size: 0.9em; line-height: 1.1em; color: #8E8E8E; }
+#raoTOC[layout="2"] ul li > a { color: #444444; }

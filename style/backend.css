@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Hack';
+  src: url('../font/hack-regular.woff2?sha=e700a30') format('woff2'), url('../font/hack-regular.woff?sha=e700a30') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+#toplevel_page_raonline_tableOfContents .wp-menu-image:before { content: "\f314" !important; position: relative; top: 1px; }
+.wp-core-ui #content_raonline_tableOfContents .notice { margin: 0.2rem 0 1rem 0; }
+#content_raonline_tableOfContents { padding: 0 2em 0 0; } 
+#content_raonline_tableOfContents #versionKey { font-size: 0.9em; color: #9A9A9A; position: absolute; right: 0.6em; bottom: -1.8em; }
+#content_raonline_tableOfContents #authorHint { font-size: 0.9em; font-style: italic; }
+#content_raonline_tableOfContents #tabNav, #content_raonline_tableOfContents #tabNav * { margin: 0; padding: 0; }
+#content_raonline_tableOfContents #tabNav { border-left: solid 1px #DEDEDE; position: relative; top: 1px; overflow-y: auto; display: none; z-index: 2; }
+#content_raonline_tableOfContents #tabNav li { float: left; }
+#content_raonline_tableOfContents #tabNav li a { text-decoration: none; padding: 0.2rem 0.6rem 0.3rem 0.6rem; color: #444444; border: solid 1px #DEDEDE; border-left: none; display: block;
+  background: #F5F5F5; background-image: none; background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#F5F5F5)); background-image: -webkit-linear-gradient(center top, #fff, #F5F5F5); background-image: -moz-linear-gradient(center top, #fff, #F5F5F5); background-image: -ms-linear-gradient(center top, #fff, #F5F5F5); background-image: -o-linear-gradient(center top, #fff, #F5F5F5); background-image: linear-gradient(center top, #fff, #F5F5F5);
+ } 
+#content_raonline_tableOfContents #tabNav li[active=no] a:hover { color: #FFFFFF; background: #848484; border: solid 1px #848484; border-left: none; }
+#content_raonline_tableOfContents #tabNav li[active=yes] a { color: #000000; background: #FFFFFF; border-bottom: solid 1px #FFFFFF; }
+#content_raonline_tableOfContents #tabContent { padding: 0.4rem 0.6rem; border: solid 1px #DEDEDE; clear: both; position: relative; display: none;
+  background: #F5F5F5; background-image: none; background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#F5F5F5)); background-image: -webkit-linear-gradient(center top, #fff, #F5F5F5); background-image: -moz-linear-gradient(center top, #fff, #F5F5F5); background-image: -ms-linear-gradient(center top, #fff, #F5F5F5); background-image: -o-linear-gradient(center top, #fff, #F5F5F5); background-image: linear-gradient(center top, #fff, #F5F5F5);
+ }
+#content_raonline_tableOfContents #tabContent, #content_raonline_tableOfContents #tabContent * { margin: 0; padding: 0; }
+#content_raonline_tableOfContents #tabContent .tabContent { padding: 0.6rem 1rem; min-height: 2rem; display: none; }
+#content_raonline_tableOfContents #tabContent .tabContent[active=yes] { display: block; }
+#content_raonline_tableOfContents #tabContent .tabContent h3 { margin: 0.4rem 0; }
+#content_raonline_tableOfContents #tabContent .tabContent .form { margin: 0.8rem 0; width: 100%; }
+#content_raonline_tableOfContents #tabContent .tabContent .form .form { margin: 0.2rem 0 0.8rem 0; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr { display: block; } 
+#content_raonline_tableOfContents #tabContent .tabContent .form tr[lineType="A"] { margin-top: 0.6rem; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr[lineType="B"] { margin-top: 0.6rem; padding-top: 0.6rem; border-top: solid 1px #DEDEDE; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr[lineType="C"] { margin: 0; padding: 0; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr [dependent] { margin: 0.2rem 0 0.6rem 1rem; display: none; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr th { text-align: right; vertical-align: top; padding: 0.2rem 0.2rem 0 0.2rem; min-width: 12rem; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr th:after { content: ":"; }
+#content_raonline_tableOfContents #tabContent #presentation.tabContent .form tr th { min-width: 10rem; }
+#content_raonline_tableOfContents #tabContent #presentation.tabContent .form tr[lineType="C"] th { min-width: 15rem; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td { padding: 0 0.2rem; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td select { padding: 0.2rem 1.4rem 0 0.4rem; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td option { font-size: 0.9em; padding: 0 0.2rem; color: #000000; background-color: #FFFFFF; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td optgroup { margin: 0 0 0.4rem 0; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td optgroup[label] { font-size: 0.8em; font-style: normal; background-color: #DEDEDE; display: block; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td optgroup option { font-size: 1.1em; padding: 0.1rem 0.2rem 0.1rem 0.4rem; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td input[type="text"] { padding: 0.2rem 0.4rem; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td input[type="text"].vA { text-align: right; position: relative; top: 0.2rem; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td input[type="text"].vB { text-align: right; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td input[type="checkbox"] { margin-right: 0.2rem; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td input[type="radio"] { margin-right: 0.2rem; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td select.vB { position: relative; top: -0.2rem; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td span.fixValue { padding: 0.2rem 0.4rem; background-color: #FFFFFF; border: solid 1px #DEDEDE; width: 2rem; display: block; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td .hintA { font-size: 0.9em; font-style: italic; color: #666666; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td .image[for] { margin: 0.4rem 0 0 0; border: solid 1px #DEDEDE; overflow: hidden; position: relative; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td .image[for] img { width: auto; min-height: 100%; display: block; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td .image[for] img.thumbnail { max-height: 250px; }
+#content_raonline_tableOfContents #tabContent .tabContent .form tr td .image[for] img.fullview { position: absolute; left: 0; top: 0; }
+
+#content_raonline_tableOfContents #tabContent .helpText { margin-top: 1.6em; padding-top: 3em; border-top: dotted 0.5em #DEDEDE; max-width: 76em; }
+#content_raonline_tableOfContents #tabContent .helpText:first-child { margin-top: 0; padding-top: 0.6em; border-top: none; }
+#content_raonline_tableOfContents #tabContent .helpText p { font-size: 1.1em; line-height: 1.2em; padding-bottom: 0.5em; }
+
+#content_raonline_tableOfContents #tabContent .helpText code { padding: 0.05em 0.2em 0.15em 0.2em; }
+#content_raonline_tableOfContents #tabContent .helpText code.sourcecodeBlock { font-size: 1.2em; margin: 0.33em 2.5rem 0.67em 1.67em; padding: 0.25em 0.4em 0.35em 0.4em; display: block; }
+
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation { margin: 0.4em 3em 0.8em 2em; padding: 0; border: solid 1px #DEDEDE; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr { display: table-row; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr th { font-size: 0.9em; font-weight: normal; color: #FFFFFF; background-color: #AEAEAE; border: solid 1px #DEDEDE; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr th:after { content: ""; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr td { border: solid 1px #DEDEDE; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr .colA { text-align: right; vertical-align: top; min-width: 20%; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr .colB { text-align: left; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr td.attribute { font-family: 'Hack'; letter-spacing: 0.5px; padding: 0.3rem 0.4rem 0.1rem 0.4rem; color: #FFFFFF; background-color: #336633; border-color: #225522; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr td.info { padding: 0.3em 0.4em 0.3em 0.4em; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr td.info .explanation { line-height: 1.1em; font-weight: bold; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr td.info .values { font-size: 0.9em; padding: 0 1em 0 0.4em; color: #0073AA; float: left; min-width: 10em; width: 50%; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr td.info .values:before { font-size: 0.8em; color: #666666; position: relative; left: -0.4em; display: block; content: "gültige Werte:"; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr td.info .values li { line-height: 1.1em; text-indent: -0.4em; padding: 0.3em 0 0 0.4em; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr td.info .values li:first-child { padding-top: 0; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr td.info .example { padding: 0 1em 0 0; float: left; min-width: 10em; width: 45%; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr td.info .example:before { font-size: 0.8em; color: #666666; display: block; content: "Beispiel:"; }
+#content_raonline_tableOfContents #tabContent .helpText .codeExplanation tr td.info .example code { display: inline-block; }
